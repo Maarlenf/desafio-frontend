@@ -104,23 +104,28 @@ export function getCharacters() {
 export const season = [{
     id:1,
     name: "Season 1",
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    season: 'S01',
 }, {
     id: 2,
     name: "Season 2",
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10],
+    season: 'S02'
 },{
     id: 3,
     name: "Season 3",
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    season: 'S03'
 },{
     id: 4,
     name: "Season 4",
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    season: 'S04'
 },{
     id: 5,
     name: "Season 5",
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    season: 'S05'
 }
 ]  
 

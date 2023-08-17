@@ -5,8 +5,8 @@ import { portada } from "../images";
 export function Login() {
   return (
     <>
-      <main className="grid grid-cols-2 items-center justify-center h-screen w-screen -sm:flex -sm:flex-col -sm:justify-start -sm:items-center xs:flex xs:flex-col xs:items-center xs:justify-start -sm:mt-10 xs:mt-2 sm:-mt-40 sm:-ml-8 md:mt-0 md:ml-0 ">
-        <div className="block mr-auto ml-auto -mt-10 max-w-full max-h-full lg:ml-32 xl:ml-32 2xl:ml-32 md:ml-32 ">
+      <main className="grid grid-cols-2 items-center justify-center h-screen w-screen -sm:flex -sm:flex-col -sm:justify-start -sm:items-center xs:flex xs:flex-col xs:items-center xs:justify-start -sm:mt-10 xs:mt-2 sm:mt-0 sm:ml-0 md:mt-0 md:ml-0 ">
+        <div className="block mr-auto ml-auto -mt-10 max-w-full max-h-full lg:ml-32 xl:ml-32 2xl:ml-32 md:ml-10 ">
           <img
             src={portada}
             alt="Imágen de Rick and Morty con su logo"
