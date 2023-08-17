@@ -1,7 +1,7 @@
 /* eslint-disable react/no-children-prop */
 import { Form } from "../components/Form";
 import { portada } from "../images";
-
+    
 export function Login() {
   return (
     <>
@@ -14,6 +14,7 @@ export function Login() {
           />
         </div>
         <div className="block mr-auto ml-auto -mt-10 max-w-full max-h-full -sm:mt-5">
+         
           <Form
             children="Iniciar sesión"
             text="¿Aún no tienes cuenta?, "

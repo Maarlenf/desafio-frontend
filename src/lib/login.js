@@ -27,11 +27,9 @@ export function tryLogin(email, password) {
       method: "GET"
     })
     .then((res) => {
-      console.log(res);
         return res.json();
       })
     .catch((err) => {
-        console.log(err.error);
         err
         // console.log(err.message);
       });
