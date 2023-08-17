@@ -10,15 +10,15 @@ Puedes ingresar para visualizarla y explorarla con las siguientes cuentas:
 * Iniciar sesión 
 * 
 ```sh
-$ george.bluth@reqres.in
-$ 123456
+email: george.bluth@reqres.in
+contraseña: 123456
 ```
 
 * Registro
 * 
 ```sh
-$ eve.holt@reqres.in
-$ pistol
+email: eve.holt@reqres.in
+contraseña: pistol
 ```
 
 
