@@ -8,16 +8,12 @@ La interfaz fue desplegada usando Vercel : (https://desafio-frontend-git-main-ma
 Puedes ingresar para visualizarla y explorarla con las siguientes cuentas: 
 
 * Iniciar sesión 
-
-  
 ```sh
 email: george.bluth@reqres.in
 contraseña: 123456
 ```
 
 * Registro
-
-  
 ```sh
 email: eve.holt@reqres.in
 contraseña: pistol
