@@ -10,6 +10,7 @@ import { DataContext } from "../context/dataContext";
 import { Button } from "../components/Button";
 import { season } from "../lib/getData";
 import { ModalDetail } from "../components/Modal";
+import { useNavigate } from "react-router-dom";
 export function Wall() {
   const {
     characters,
@@ -32,6 +33,7 @@ export function Wall() {
   const [isOpen, setIsOpen] = useState(false);
   const [info, setInfo] = useState();
   const [search, setSearch] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setCurrentUser({ email: getEmail });
@@ -174,6 +176,7 @@ export function Wall() {
               localStorage.removeItem("email");
               setCurrentUser(null);
               window.location.reload();
+              navigate("/");
             }}
             className="text-white peer ..."
           />
